@@ -4,7 +4,7 @@ export default function Footer() {
   const [copied, setCopied] = useState(false)
 
   const handleEmailClick = () => {
-    navigator.clipboard.writeText('sharmah677@gmail.com')
+    navigator.clipboard.writeText('agarwal665a@gmail.com')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -63,7 +63,7 @@ export default function Footer() {
             </a>
           </div>
 
-          <p className="email-text">sharmah677@gmail.com</p>
+          <p className="email-text">agarwal665a@gmail.com</p>
         </div>
 
         <div className="footer-grid">
@@ -88,7 +88,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; 2024 Game Designer Portfolio. All rights reserved.</p>
+        <p>&copy; 2025 Game Designer Portfolio. All rights reserved.</p>
         <p>Designed with Three.js & React</p>
       </div>
     </footer>

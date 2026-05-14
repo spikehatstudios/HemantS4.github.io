@@ -269,31 +269,43 @@ export default function ProjectDetail() {
             </div>
           )}
 
-          {/* Extended Sections with Images interspersed */}
+          {/* Extended Sections with Images Side-by-Side */}
           {project.extendedSections && project.extendedSections.length > 0 && (
             <>
               {project.extendedSections.map((section, index) => (
                 <div
                   key={index}
-                  className={`content-block ${section.content ? 'mixed-block' : 'image-banner-block'} ${section.backgroundGif ? 'gif-background-block' : ''}`}
+                  className={`content-block extended-section ${section.image ? 'has-image' : ''} ${section.backgroundGif ? 'gif-background-block' : ''}`}
                   style={section.backgroundGif ? {
                     backgroundImage: `url(${import.meta.env.BASE_URL}images/projects/${project.id.replace(/-/g, '-')}/${section.backgroundGif})`
                   } : {}}
                 >
                   <h2 className="block-title">{section.title}</h2>
-                  {section.content && (
-                    <div className="text-content">{renderMarkdown(section.content)}</div>
-                  )}
-                  {section.image && (
-                    <div className={`block-image ${section.image === 'Howitworks.png' ? 'small-image' : ''}`}>
-                      <img
-                        src={`${import.meta.env.BASE_URL}images/projects/${project.id.replace(/-/g, '-')}/${section.image}`}
-                        alt={section.title}
-                        onError={(e) => {
-                          e.target.src = `https://via.placeholder.com/800x450/1a1a2e/ff7849?text=${encodeURIComponent(section.title)}`
-                        }}
-                      />
+                  {section.image ? (
+                    <div className="section-content-grid">
+                      <div className="section-text">
+                        {section.content && (
+                          <div className="text-content">{renderMarkdown(section.content)}</div>
+                        )}
+                      </div>
+                      <div className="section-image">
+                        <div className={`block-image ${section.image === 'Howitworks.png' ? 'small-image' : ''}`}>
+                          <img
+                            src={`${import.meta.env.BASE_URL}images/projects/${project.id.replace(/-/g, '-')}/${section.image}`}
+                            alt={section.title}
+                            onError={(e) => {
+                              e.target.src = `https://via.placeholder.com/800x450/1a1a2e/ff7849?text=${encodeURIComponent(section.title)}`
+                            }}
+                          />
+                        </div>
+                      </div>
                     </div>
+                  ) : (
+                    <>
+                      {section.content && (
+                        <div className="text-content">{renderMarkdown(section.content)}</div>
+                      )}
+                    </>
                   )}
                   {section.images && section.images.length > 0 && (
                     <div className="section-gallery">
