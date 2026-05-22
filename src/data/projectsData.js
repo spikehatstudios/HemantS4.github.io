@@ -2,6 +2,7 @@
 const BASE_URL = import.meta.env.BASE_URL || '/';
 
 export const projectsData = [
+
   {
     id: 'nmt-app',
     title: 'App for NMT',
@@ -49,6 +50,8 @@ export const projectsData = [
 
     links: {}
   },
+
+  
 
   {
     id: 'flowlog',
@@ -201,22 +204,24 @@ Research shows users with this combination engage 3x more than those using tradi
     }
   },
 
+  
+
   {
-    id: 'moti',
-    title: 'Moti',
-    category: 'Indie Game',
+    id: 'introsense',
+    title: 'IntroSense',
+    category: 'Sensory Technology & UX Research',
     year: '2025',
-    description: 'A cozy indie dog experience game',
-    shortDescription: 'Cozy dog companion experience',
-    tools: ['Unity', 'C#', 'Blender'],
-    thumbnail: `${BASE_URL}images/projects/Moti/moti 1.png`,
+    description: 'An innovative sensory interface system designed for immersive environmental awareness and user interaction.',
+    shortDescription: 'Sensory interface technology system',
+    tools: ['Figma', 'Miro', 'Arduino'],
+    thumbnail: `${BASE_URL}images/projects/introsense/c1.png`,
 
     overview: '',
 
-    role: 'System Designer, Developer',
-    duration: '3 weeks',
-    teamSize: '3 people',
-    platform: ['PC'],
+    role: 'UX Researcher & Designer',
+    duration: '4 weeks',
+    teamSize: 'Solo',
+    platform: ['Interface Technology'],
 
     extendedSections: [],
 
@@ -227,22 +232,117 @@ Research shows users with this combination engage 3x more than those using tradi
     features: [],
 
     gallery: [
-      `${BASE_URL}images/projects/Moti/moti 1.png`,
-      `${BASE_URL}images/projects/Moti/moti 2.png`,
-      `${BASE_URL}images/projects/Moti/moti 3.png`,
-      `${BASE_URL}images/projects/Moti/moti 4.png`,
-      `${BASE_URL}images/projects/Moti/moti 5.png`,
-      `${BASE_URL}images/projects/Moti/moti 6.png`,
-      `${BASE_URL}images/projects/Moti/moti 7.png`,
-      `${BASE_URL}images/projects/Moti/moti 8.png`,
-      `${BASE_URL}images/projects/Moti/moti 9.png`,
-      `${BASE_URL}images/projects/Moti/moti 10.png`
+      `${BASE_URL}images/projects/introsense/c1.png`,
+      `${BASE_URL}images/projects/introsense/c2.png`,
+      `${BASE_URL}images/projects/introsense/c3.png`,
+      `${BASE_URL}images/projects/introsense/c4.png`,
+      `${BASE_URL}images/projects/introsense/c5.png`,
+      `${BASE_URL}images/projects/introsense/c6.png`,
+      `${BASE_URL}images/projects/introsense/c7.png`,
+      `${BASE_URL}images/projects/introsense/c8.png`,
+      `${BASE_URL}images/projects/introsense/c9.png`,
+      `${BASE_URL}images/projects/introsense/c10.png`,
+      `${BASE_URL}images/projects/introsense/c11.png`,
+      `${BASE_URL}images/projects/introsense/c12.png`,
+      `${BASE_URL}images/projects/introsense/c13.png`,
+      `${BASE_URL}images/projects/introsense/c14.png`,
+      `${BASE_URL}images/projects/introsense/c15.png`,
+      `${BASE_URL}images/projects/introsense/c16.png`,
+      `${BASE_URL}images/projects/introsense/c17.png`,
+      `${BASE_URL}images/projects/introsense/c18.png`,
+      `${BASE_URL}images/projects/introsense/c19.png`,
+      `${BASE_URL}images/projects/introsense/c20.png`,
+      `${BASE_URL}images/projects/introsense/c21.png`,
+      `${BASE_URL}images/projects/introsense/c22.png`,
+      `${BASE_URL}images/projects/introsense/c23.png`,
+      `${BASE_URL}images/projects/introsense/c24.png`,
+      `${BASE_URL}images/projects/introsense/c25.png`,
+      `${BASE_URL}images/projects/introsense/c26.png`,
+      `${BASE_URL}images/projects/introsense/c27.png`,
+      `${BASE_URL}images/projects/introsense/c28.png`,
+      `${BASE_URL}images/projects/introsense/c29.png`,
+      `${BASE_URL}images/projects/introsense/c30.png`,
+      `${BASE_URL}images/projects/introsense/c31.png`,
+      `${BASE_URL}images/projects/introsense/c32.png`,
+      `${BASE_URL}images/projects/introsense/c33.png`
     ],
-
-    videoUrl: 'https://www.youtube.com/embed/XHgm6kDJbG4',
 
     links: {}
   },
+
+  
+
+  {
+    id: 'neurosense',
+    title: 'NeuroCompass',
+    category: 'Wearable Technology & UX Research',
+    year: '2025',
+    description: 'An adaptive multi-sensory navigation belt for high-risk environments using haptic feedback and spatial orientation.',
+    shortDescription: 'Multi-signal haptic spatial navigation system',
+    tools: ['Figma', 'Miro', 'Arduino'],
+    thumbnail: `${BASE_URL}images/projects/Neurosense/n1.png`,
+
+    overview: '',
+
+    role: 'UX Researcher & Designer',
+    duration: '4 weeks',
+    teamSize: 'Solo',
+    platform: ['Wearable'],
+
+    extendedSections: [],
+
+    challenges: [],
+
+    solutions: [],
+
+    features: [],
+
+    gallery: [
+      `${BASE_URL}images/projects/Neurosense/n1.png`,
+      `${BASE_URL}images/projects/Neurosense/n2.png`,
+      `${BASE_URL}images/projects/Neurosense/n3.png`,
+      `${BASE_URL}images/projects/Neurosense/n4.png`,
+      `${BASE_URL}images/projects/Neurosense/n5.png`,
+      `${BASE_URL}images/projects/Neurosense/n6.png`,
+      `${BASE_URL}images/projects/Neurosense/n7.png`,
+      `${BASE_URL}images/projects/Neurosense/n8.png`,
+      `${BASE_URL}images/projects/Neurosense/n9.png`,
+      `${BASE_URL}images/projects/Neurosense/n10.png`,
+      `${BASE_URL}images/projects/Neurosense/n11.png`,
+      `${BASE_URL}images/projects/Neurosense/n12.png`,
+      `${BASE_URL}images/projects/Neurosense/n13.png`,
+      `${BASE_URL}images/projects/Neurosense/n14.png`,
+      `${BASE_URL}images/projects/Neurosense/n15.png`,
+      `${BASE_URL}images/projects/Neurosense/n16.png`,
+      `${BASE_URL}images/projects/Neurosense/n17.png`,
+      `${BASE_URL}images/projects/Neurosense/n18.png`,
+      `${BASE_URL}images/projects/Neurosense/n19.png`,
+      `${BASE_URL}images/projects/Neurosense/n20.png`,
+      `${BASE_URL}images/projects/Neurosense/n21.png`,
+      `${BASE_URL}images/projects/Neurosense/n22.png`,
+      `${BASE_URL}images/projects/Neurosense/n23.png`,
+      `${BASE_URL}images/projects/Neurosense/n24.png`,
+      `${BASE_URL}images/projects/Neurosense/n25.png`,
+      `${BASE_URL}images/projects/Neurosense/n26.png`,
+      `${BASE_URL}images/projects/Neurosense/n27.png`,
+      `${BASE_URL}images/projects/Neurosense/n28.png`,
+      `${BASE_URL}images/projects/Neurosense/n29.png`,
+      `${BASE_URL}images/projects/Neurosense/n30.png`,
+      `${BASE_URL}images/projects/Neurosense/n31.png`,
+      `${BASE_URL}images/projects/Neurosense/n32.png`,
+      `${BASE_URL}images/projects/Neurosense/n33.png`,
+      `${BASE_URL}images/projects/Neurosense/n34.png`,
+      `${BASE_URL}images/projects/Neurosense/n35.png`,
+      `${BASE_URL}images/projects/Neurosense/n36.png`,
+      `${BASE_URL}images/projects/Neurosense/n37.png`,
+      `${BASE_URL}images/projects/Neurosense/n38.png`,
+      `${BASE_URL}images/projects/Neurosense/n39.png`
+    ],
+
+    links: {}
+  },
+
+  
 
   {
     id: 'pack-less',
@@ -289,53 +389,7 @@ Research shows users with this combination engage 3x more than those using tradi
     }
   },
 
-  {
-    id: 'ammo-batics',
-    title: 'Ammo-batics',
-    category: '2D Platformer',
-    year: '2025',
-    description: 'A 2D momentum-centric platformer where every shot fired becomes a movement decision.',
-    shortDescription: '2D shooter platformer focusing on level design',
-    tools: ['Unity', 'Photoshop', 'C#'],
-    thumbnail: `${BASE_URL}images/projects/ammo-batics/Cover.png`,
-
-    // Detailed project information
-    overview: '',
-
-    role: 'Game Designer, Level Designer, Programmer',
-    duration: '2 weeks',
-    teamSize: 'Solo',
-    platform: ['PC'],
-
-    // Extended sections with detailed content and images
-    extendedSections: [],
-
-    challenges: [],
-
-    solutions: [],
-
-    features: [],
-
-    gallery: [
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 1.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 2.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 4.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 5.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 6.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 8.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 9.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 10.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 11.png`,
-      `${BASE_URL}images/projects/ammo-batics/Slides/Frame 12.png`
-    ],
-
-    videoUrl: 'https://www.youtube.com/embed/oXmuplxd0LM',
-
-    links: {
-      itchIo: 'https://hemants4.itch.io/ammo-batics',
-      gdd: `${BASE_URL}ammobatics_gdd.html`
-    }
-  },
+  
 
   {
     id: 'flow-and-hold',
@@ -433,117 +487,52 @@ Research shows users with this combination engage 3x more than those using tradi
     }
   },
 
+  
+
   {
-    id: 'spring-twilight',
-    title: 'Spring Twilight',
-    category: 'Experimental Game',
+    id: 'moti',
+    title: 'Moti',
+    category: 'Indie Game',
     year: '2025',
-    description: 'Light spreads. You pass it on—until the wind takes your flame.',
-    shortDescription: 'Poetry-to-mechanic experimental game',
-    tools: ['Unity', 'C#', 'Photoshop'],
-    thumbnail: `${BASE_URL}images/projects/spring-twilight/thumbnail.png`,
+    description: 'A cozy indie dog experience game',
+    shortDescription: 'Cozy dog companion experience',
+    tools: ['Unity', 'C#', 'Blender'],
+    thumbnail: `${BASE_URL}images/projects/Moti/moti 1.png`,
 
-    overview: 'Inspired by Yosa Buson\'s haiku: "The light of a candle / is transferred to another candle— / spring twilight." Spring Twilight transforms this poetic image into interactive play. You begin as a single candle in a dark field, transferring your flame to unlit sky-lanterns drifting past. Each click ignites a lantern that rises and persists. When the wind finally snuffs your candle, the camera lifts to reveal a sky filled with every lantern you lit—your quiet legacy. A minimalist meditation on generosity, impermanence, and the cumulative impact of small acts of giving.',
+    overview: '',
 
-    // Extended sections for detailed project page
-    extendedSections: [
-      {
-        title: 'Concept & Inspiration',
-        content: `The design turns Yosa Buson's poetic image into play: small acts of giving accumulate into a sky of light. You begin as a single candle in a dark field. Unlit sky-lanterns drift past. Each click transfers your flame; the lantern rises and persists. When the wind finally snuffs your candle, the camera lifts to reveal the sky filled with every lantern you lit—your quiet legacy.
+    role: 'System Designer, Developer',
+    duration: '3 weeks',
+    teamSize: '3 people',
+    platform: ['PC'],
 
-**Core Philosophy:** "If you keep giving happiness to others, the real joy returns to you." Mechanically, your candle is mortal; the lights you share endure. The payoff is larger than the actions that produced it.
+    extendedSections: [],
 
-**Attribution:** Inspired by a haiku by Yosa Buson (public domain).`,
-        image: 'Concept.jpg'
-      },
-      {
-        title: 'Core Loop',
-        content: '',
-        image: 'Core-Loop.png'
-      },
-      {
-        title: 'Core Mechanics',
-        content: `**Transfer of Light:** Click unlit lanterns to ignite them before they float away. Each successful transfer sends a lantern rising into the sky.
+    challenges: [],
 
-**Wind as Obstacle:** Timed gusts push lanterns, distort your flame, and can extinguish you. Reading wind cues is essential—leaf swirls, audio whooshes, and screen shimmer telegraph incoming gusts.
+    solutions: [],
 
-**End Reveal:** On loss, the scene blooms into a luminous "spring twilight," showing the cumulative impact of your generosity. The sky fills with every lantern you lit—a constellation of your giving.
-
-The game creates an elegant loss/payoff loop: wind ends you, but your gifts remain.`
-      },
-      {
-        title: 'Theme & Design Philosophy',
-        content: `**Central Theme:** Generosity and impermanence intertwine. Your candle's mortality contrasts with the enduring lights you share.
-
-**Poetry-to-Mechanic Translation:** The haiku's "transfer" becomes the core interaction—ignition and persistence. The wind represents life's inevitable challenges, while the final reveal embodies the poem's "spring twilight."
-
-**Emotional Journey:** Players experience calm moment-to-moment gameplay that builds into a reflective, contemplative payoff. The design emphasizes that small, repeated acts of kindness create something greater than their sum.`,
-        backgroundGif: 'Theme.gif'
-      },
-      {
-        title: 'Aesthetics & Audio Design',
-        content: `**Visual Language:**
-• Twilight palette with warm candle bloom
-• Particle sparks during flame transfer
-• Screen shimmer effect for wind telegraphs
-• Luminous final reveal with sky-crowded lantern-stars
-
-**Sound Design:**
-• Soft chime on successful ignition
-• Airy wind layers during gusts
-• Ambient soundscape supporting meditative mood
-• Audio cues reinforcing wind patterns
-
-The cohesive visual and sound design serves the theme, creating an atmosphere of quiet contemplation and ultimate revelation.`
-      }
-    ],
-
-    role: 'Solo Designer-Developer',
-    duration: '2 weeks',
-    teamSize: 'Solo',
-    platform: ['PC', 'Web'],
-
-    challenges: [
-      'Translating abstract poetry into concrete, playable mechanics',
-      'Creating emotional resonance through minimal interaction',
-      'Balancing challenge (wind timing) with contemplative atmosphere',
-      'Designing telegraphed wind cues that feel natural, not mechanical',
-      'Crafting a reveal that justifies and recontextualizes the player\'s loss'
-    ],
-
-    solutions: [
-      'Developed simple click-to-transfer mechanic that embodies the haiku\'s core image',
-      'Created layered wind system with visual, audio, and timing cues',
-      'Implemented persistent lanterns that accumulate to create emotional payoff',
-      'Designed camera reveal that transforms defeat into contemplative beauty',
-      'Built lightweight UI focusing player attention on flame and lanterns'
-    ],
-
-    features: [
-      'Poetry-inspired core mechanic: transfer light through clicking',
-      'Wind-based obstacle system with telegraphed cues',
-      'Persistent lantern accumulation visible in final reveal',
-      'Minimalist timing-based gameplay',
-      'Twilight aesthetic with warm lighting and particle effects',
-      'Responsive audio design with soft chimes and wind layers',
-      'Camera choreography for emotional reveal',
-      'Meditative pacing encouraging reflection'
-    ],
+    features: [],
 
     gallery: [
-      `${BASE_URL}images/projects/spring-twilight/thumbnail.png`,
-      `${BASE_URL}images/projects/spring-twilight/screenshot-1.png`,
-      `${BASE_URL}images/projects/spring-twilight/screenshot-2.png`,
-      `${BASE_URL}images/projects/spring-twilight/screenshot-3.png`,
-      `${BASE_URL}images/projects/spring-twilight/screenshot-4.png`
+      `${BASE_URL}images/projects/Moti/moti 1.png`,
+      `${BASE_URL}images/projects/Moti/moti 2.png`,
+      `${BASE_URL}images/projects/Moti/moti 3.png`,
+      `${BASE_URL}images/projects/Moti/moti 4.png`,
+      `${BASE_URL}images/projects/Moti/moti 5.png`,
+      `${BASE_URL}images/projects/Moti/moti 6.png`,
+      `${BASE_URL}images/projects/Moti/moti 7.png`,
+      `${BASE_URL}images/projects/Moti/moti 8.png`,
+      `${BASE_URL}images/projects/Moti/moti 9.png`,
+      `${BASE_URL}images/projects/Moti/moti 10.png`
     ],
 
-    videoUrl: 'https://www.youtube.com/embed/LdWjM72sZjo',
+    videoUrl: 'https://www.youtube.com/embed/XHgm6kDJbG4',
 
-    links: {
-      itchIo: 'https://hemants4.itch.io/light-of-a-candle'
-    }
+    links: {}
   },
+
+  
 
   {
     id: 'dp2-motor-play',
@@ -733,6 +722,8 @@ Field research: kids engage most when they feel in control. Pause anytime. Skip 
       gameGdd: `${BASE_URL}DP2_Game_GDD.html`
     }
   },
+
+  
 
   {
     id: 'artwork',
